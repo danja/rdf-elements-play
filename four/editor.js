@@ -40,7 +40,7 @@ values['application/ld+json'] = `{
   "familyName": "House",
   "givenName": "Gregory",
   "homeLocation": "place/221b-baker-street",
-  "jobTitle": "Head of Gnostic Medicine",
+  "jobTitle": "Head of Local Medicine",
   "knows": [
     "person/allison-cameron",
     "person/blythe-house",
@@ -62,7 +62,7 @@ values['text/turtle'] = `@base <https://housemd.rdf-ext.org/person/>.
   schema:familyName "House";
   schema:givenName "Gregory";
   schema:homeLocation <https://housemd.rdf-ext.org/place/221b-baker-street>;
-  schema:jobTitle "Head of Diagnostic Medicine";
+  schema:jobTitle "Head of Local Medicine";
   schema:knows
     <allison-cameron>,
     <blythe-house>,
